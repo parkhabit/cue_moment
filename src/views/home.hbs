@@ -1,0 +1,35 @@
+<nav>
+    <p class="nav_item">Cue Moment</p>
+    <div class='nav_align'>
+        <i class="fab fa-instagram fa-2x"></i>
+    </div>
+
+</nav>
+<main>
+    <h1>Cue Moment</h1>
+    <div class="main_details">
+        <h2>Coming soon</h2>
+        <p class="body_text">A UK based website designed to help you find the right photographer for your wedding day.
+        </p>
+        <p class="body_text">Add your email address to find out more and recieve updates.</p>
+    </div>
+
+    <div class="form_container">
+        <form action="/registerEmail" method="post">
+            <div class='email_field_container'>
+                <label name='email' class='email_label'>Email</label>
+                <input class='email_textfield' type='email' name='email' required />
+            </div>
+            <button class='email_submit_button' type='submit'>Find out more</button>
+        </form>
+    </div>
+
+    <section class='message_container'>
+        {{#if success}}
+        <p class='success_container'>{{success}}</p>
+        {{else if error_msg}}
+        <p class='error_container'>{{error_msg}}</p>
+        {{/if}}
+    </section>
+
+</main>

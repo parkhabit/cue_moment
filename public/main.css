@@ -1,0 +1,111 @@
+html, body {
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    margin: 0;
+}
+
+nav {
+    background-color: #fffcfb;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.nav_align {
+    display: table;
+    margin: 10px;
+}
+.nav_item {
+    color: #0B0C11;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.fa-instagram {
+    color: #0B0C11;
+    vertical-align: middle;
+}
+
+main {
+    background-color: #0B0C11;
+    color: #fffcfb;
+    padding: 40px 10px 10px 25px;
+    height: 100%;
+}
+
+h1 {
+    font-size: 124px;
+    font-weight: 500;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+.body_text {
+    font-size: 18px;
+}
+
+.main_details {
+    padding-left: 20px;
+    width: 60%;
+}
+
+.form_container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.email_field_container {
+    display: flex;
+    flex-direction: column;
+}
+form {
+    display: flex;
+    align-items: flex-end;
+}
+.email_label {
+    font-size: 18px;
+}
+.email_textfield {
+    height: 45px;
+    width: 250px;
+    margin-right: 10px;
+    box-sizing: border-box;
+}
+.email_submit_button {
+    height: 45px;
+    width: 150px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color:#0B0C11;
+    color: #fffcfb;
+    cursor: pointer;
+    border: 1px solid #fffcfb;
+}
+
+.email_submit_button:hover {
+    background-color: rgba(255, 252, 251, 0.1);
+}
+
+.email_submit_button:active {
+    background-color: #fffcfb;
+    color: #0B0C11;
+    border-color: #fffcfb;
+}
+
+.message_container {
+    height: 50px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin-top: 50px;
+}
+.success_container, .error_container {
+    border: 2px dashed #fffcfb;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 15px;
+    width: 35%;
+    box-sizing: border-box;
+}

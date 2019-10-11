@@ -1,0 +1,40 @@
+{
+  "name": "cue_moment",
+  "version": "1.0.0",
+  "description": "A landing page for cue moment a website to find photographers",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "dev": "nodemon ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "env2": "^2.2.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.2",
+    "compression": "^1.7.1",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.3",
+    "cookie-session": "^2.0.0-beta.3",
+    "express": "^4.16.2",
+    "express-handlebars": "^3.0.0",
+    "express-session": "^1.15.6",
+    "express-validator": "^4.3.0",
+    "jsonwebtoken": "^8.1.0",
+    "pg": "^7.4.0",
+    "serve-favicon": "^2.4.5"
+  },
+  "engines": {
+    "node": "9.2.0"
+  },
+  "devDependencies": {
+    "env2": "^2.2.0",
+    "eslint": "^4.13.1",
+    "nodemon": "^1.12.5",
+    "supertest": "^3.0.0",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.8.0"
+  }
+}

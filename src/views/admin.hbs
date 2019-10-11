@@ -1,0 +1,17 @@
+  <section>
+    <h2>Enter your email and password to login as admin</h2>
+    <form action="/getalldata" method="post">
+      <label for='email'>Email</label>
+      <input type='email' name='email'></input>
+      <label for='password'>Password</label>
+      <input type='password' name='password'></input>
+      <button type='submit'>Enter</submit>
+    </form>
+  </section>
+    <section class='message_container'>
+        {{#if success}}
+        <p class='success_container'>{{success}}</p>
+        {{else if error_msg}}
+        <p class='error_container'>{{error_msg}}</p>
+        {{/if}}
+    </section>

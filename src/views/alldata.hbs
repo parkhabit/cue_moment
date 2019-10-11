@@ -1,0 +1,13 @@
+<section>
+        {{#if allData}}
+      {{#each allData}}
+        <div>
+          <p>email: {{email}}</p>
+        </div>
+      {{/each}}
+      {{else}}
+      <div>
+        <p>No one has signed up yet</p>
+      </div>
+    {{/if}}
+</section>
